@@ -4,7 +4,7 @@
  
 ## Demo
 
-[Frontend](https://live-ticket-booking.netlify.app/)  https://live-ticket-booking.netlify.app/
+[Frontend](https://angular-8t6vbmtf.stackblitz.io/)  https://angular-8t6vbmtf.stackblitz.io/
 
 # Problem Statement
 
@@ -126,7 +126,7 @@ Feel free to explore the application and interact with its features.
 **Client:**  Angular
 ## Deployment Link
 
-[Frontend](https://live-ticket-booking.netlify.app/)  <br />
+[Frontend](https://angular-8t6vbmtf.stackblitz.io/)  <br />
 
 
 
