@@ -1,0 +1,61 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #5b7992, #00f2fe);
+  color: white; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+}
+
+.coach {
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 5px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.seat.booked {
+  background-color: #f44336;
+  color: white;
+  cursor: not-allowed;
+}
+.input{
+  margin-right: 4px;
+  width: 150px;
+  height: 20px;
+  border-radius: 4px;
+}
+.seatbtn{
+  width: 100px;
+  height: 25px;
+  background-color: rgb(79, 121, 79);
+  color: white;
+  border-radius: 4px;
+  border: white;
+  cursor: pointer;
+}
+.resetbtn{
+  width: 80px;
+  height: 25px;
+  margin-right: 4px;
+  background-color: rgb(173, 117, 100);
+  color: white;
+  border-radius: 4px;
+  border: white;
+  cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Train Seat Booking</h1>
+  <button class="resetbtn" (click)="resetPage()">Reset</button>
+  <input class="input"
+    type="number"
+    min="1"
+    max="7"
+    placeholder="Enter number of seats"
+    #seatInput
+  />
+  <button class="seatbtn" (click)="bookSeats(seatInput.value)">Book Seats</button>
+
+  <div class="coach">
+    <div class="row" *ngFor="let row of rows">
+      <div
+        class="seat"
+        *ngFor="let seat of row"
+        [class.booked]="isSeatBooked(seat)"
+      >
+      <mat-icon>airline_seat_recline_normal</mat-icon>
+        {{ seat }}
+      </div>
+    </div>
+  </div>
+</div>
