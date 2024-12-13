@@ -20,7 +20,7 @@ export class AppComponent {
     let seatNumber = 1;
     for (let i = 0; i < 11; i++) {
       const row = [];
-      for (let j = 0; j < (i === 10 ? 3 : this.seatsPerRow); j++) {
+      for (let j = 0; j < (i === 11 ? 3 : this.seatsPerRow); j++) {
         row.push(seatNumber++);
       }
       this.rows.push(row);
