@@ -18,7 +18,7 @@ export class AppComponent {
   // initialising the number of seats
   initializeSeats() {
     let seatNumber = 1;
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 12; i++) {
       const row = [];
       for (let j = 0; j < (i === 11 ? 3 : this.seatsPerRow); j++) {
         row.push(seatNumber++);
